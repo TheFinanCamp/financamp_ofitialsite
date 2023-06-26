@@ -1,0 +1,208 @@
+/* ALL CODE */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* HEADER */
+/* Styling for the header */
+header {
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+
+/* Styling for the logo image */
+.logo img {
+    max-width: 200px;
+}
+
+/* MAIN */
+/* Styling for the main content section */
+main {
+    background-color: #5A464C;
+    padding: 20px;
+}
+
+/* Styling for generic sections */
+section {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Styling for the "home" section */
+section#home {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 20px 0;
+    color: #271F38;
+    display: flex;
+    flex-direction: row-reverse;
+}
+  
+/* Styling for the content within the "home" section */
+section#home .content {
+    display: flex;
+    align-items: center;
+}
+  
+/* Styling for the text within the "home" section */
+section#home .text {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Styling for the "whyjoin" section */
+section#whyjoin {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 20px 0;
+    color: #271F38;
+}
+  
+/* Styling for the content within the "whyjoin" section */
+section#whyjoin .content {
+    display: flex;
+    align-items: center;
+}
+  
+/* Styling for the text within the "whyjoin" section */
+section#whyjoin .text {
+    margin-left: 20px;
+    text-align: center;
+}
+
+/* Styling for the "regulation" section */
+section#regulation {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 20px 0;
+    color: #271F38;
+}
+  
+/* Styling for the content within the "regulation" section */
+section#regulation .content {
+    display: inline;
+    align-items: center;
+}
+  
+/* Styling for the text and logo-container within the "regulation" section */
+section#regulation .text, .logo-container {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+  
+/* Styling for the regulation button */
+.regulation-button {
+    margin-left: 50%;
+    margin-top: -100px;
+    position: absolute;
+    padding: 10px 20px;
+    background-color: #271F38;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* Styling for the "apply" section */
+section#apply {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 20px 0;
+    color: #271F38;
+}
+  
+/* Styling for the content within the "apply" section */
+section#apply .content {
+    display: flex;
+    align-items: center;
+}
+  
+/* Styling for the text within the "apply" section */
+section#apply .text {
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+  
+/* Styling for the apply button */
+.apply-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #271F38;
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* Styling for the "meetus" section */
+section#meetus {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 20px 0;
+    color: #271F38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+/* Styling for the heading within the "meetus" section */
+section#meetus h2 {
+    text-align: justify;
+    margin-left: 20px;
+    width: 100%;
+}
+  
+/* Styling for a person within the "meetus" section */
+.person {
+    align-items: center;
+    margin-bottom: 20px;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+}
+  
+/* Styling for the details of a person */
+.person-details {
+    margin-left: 20px;
+    display: inline-block;
+}
+  
+/* Styling for paragraphs within a person's details */
+.person-details p {
+    margin: 0;
+}
+  
+/* Styling for the social media links of a person */
+.person-social {
+    display: inline-block;
+    flex-direction: row;
+    align-items: row;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+  
+/* Styling for individual social media links */
+.person-social a {
+    margin-left: 0;
+    margin-top: 10px;
+}  
+
+/* Styling for the "contacts" section */
+section#contacts {
+    background-color: #D9D9D9;
+    padding: 20px;
+    margin: 20px 0;
+    color: #271F38;
+    text-align: center;
+}  
+
+/* FOOTER */
+/* Styling for the footer */
+footer {
+    background-color: #D9D9D9;
+    padding: 20px;
+}
+
+/* Styling for paragraphs within the footer */
+footer p {
+    color: #271F38;
+}
